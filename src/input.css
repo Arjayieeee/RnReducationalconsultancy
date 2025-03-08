@@ -1,0 +1,189 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.container{
+    animation: transitionIn 1s ease;
+}
+
+    @keyframes transitionIn{
+        from{
+            opacity:0;
+            transform: rotateX(-10deg);
+        }
+        to{
+            opacity:1;
+            transform:rotateX(0);
+        }
+    }
+
+html{
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+    @apply font-livvic
+}
+
+@layer components{
+
+    .header2 .toggle__menu span{
+        content:'';
+        display: block;
+        height:.33rem;
+        width:1.5rem;
+        background-color: #54595F;
+    }
+    .header2{
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+    .header2 .toggle__menu span:nth-child(2){
+        margin: .2rem 0; 
+    }
+    .header__nav{
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        @apply shadow-none overflow-y-scroll lg:overflow-hidden
+    }
+    .header__nav.open{
+        right:0;
+    }
+    .header__nav ul li{ 
+        @apply lg:border-b-0 lg:pb-0 
+    }
+    .header__nav ul li:hover a{
+        text-decoration: underline;
+        text-decoration-color:#004AAD;
+        text-decoration-thickness: .3rem;
+
+    }
+    /* .header__nav .nav__ul li .active{
+        text-decoration: underline;
+        text-decoration-color:#004AAD;
+        text-decoration-thickness: .3rem;
+    } */
+
+    .header__nav ul li a{
+        @apply font-bold text-white lg:text-dark font-livvic
+    }
+    .header__nav .btn-a {
+        @apply text-white
+    }
+    
+    .header__nav .close span{
+        content:'';
+        display: block;
+        height:.33rem;
+        width:1.5rem;
+        background-color: #54595F;
+    }
+    .header__nav .close span:nth-child(2){
+        margin: .2rem 0; 
+        opacity: 0;
+    }
+    .header__nav .close span:first-child{
+        transform: rotate(-45deg) translateY(2px) translateX(-2px);
+    } .header__nav .close span:last-child{
+        transform: rotate(45deg) translateY(-10px) translateX(-10px);
+    }
+    .header__nav .submenu{
+       @apply lg:absolute lg:top-[10rem] lg:w-[12rem] lg:translate-x-[-1rem] lg:bg-white lg:shadow-lg  lg:opacity-0 lg:mt-[2rem] z-[-999] ease-in duration-300;
+    }
+    .navigation .nav__ul li{
+        @apply px-[1rem] py-[1rem] lg:px-0 text-white;
+    }
+    .navigation .nav__ul li:hover .btn-a{
+        @apply bg-[#0D0C0C] text-white 
+    }
+    
+   
+    
+    .arjay.show{
+        @apply  w-[100%] ease-linear duration-300
+    }
+   
+
+    /* BANNER*/
+    
+    .banner{
+       @apply bg-[url('./img/banner.png')] 
+    }
+    .banner .banner__wrapper p{
+        @apply text-white font-bold text-center lg:text-[5rem]
+    }
+
+    .vision_context{
+    } 
+
+    .banner .button li:hover a{
+        @apply bg-[#0D0C0C] text-white 
+    }
+
+    /* Service */
+
+    .service .card1, .card2, .card3{
+        box-shadow: rgba(20, 46, 170, 0.4) -3px 5px, rgba(20, 46, 170, 0.3) -6px 10px, rgba(20, 46, 170, 0.2) -9px 15px, rgba(20, 46, 170, 0.1) -12px 20px, rgba(20, 46, 170, 0.05) -15px 25px;
+    }
+
+    .service .card1, .card2, .card3{
+        overflow:hidden;
+        
+    }
+    .service .cardimg{
+        cursor:pointer;
+        
+    }
+    .service  .card1, .card2, .card3 img{
+        @apply object-cover;
+        transition:transform 0.8s; 
+    }
+    .service .cardimg:hover {
+       transform: scale(1.1);
+    }
+
+    .service .buttoncard:hover {
+        transform: scale(1.1);
+    }
+
+
+    /* Contact */
+
+    .contact .contact__content{
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+    .contact .contctbtn:hover{
+        @apply bg-primary
+     }
+     .contact .contctbtn:hover p{
+        @apply font-bold
+    }
+
+    /* About Page */
+    .abtbanner{
+        @apply bg-[url('./img/aboutbanner.png')] 
+     }
+
+    
+     .leaders .leadersprof .circle1 img{
+        @apply rounded-[50%] lg:h-[20rem] h-[5rem];
+        border: 5px solid #004AAD;
+     }
+     .leaders .leadersprof .circle1 .info{
+        @apply flex flex-col items-start lg:items-center justify-between py-[1rem] text-[.7rem] lg:text-[1rem]
+     }
+
+     /* servicepage */
+
+     .servicepage .service1 .competency p{
+        padding-top:.7rem;
+        font-size:.9rem
+     }
+
+     
+   
+}
