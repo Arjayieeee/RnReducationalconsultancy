@@ -12,6 +12,7 @@ module.exports = {
     },
     fontFamily: {
       'livvic': ['Livvic', 'sans-serif'],
+      'Nunito': ['Nunito', 'sans-serif'],
     },
   },
   plugins: [],
