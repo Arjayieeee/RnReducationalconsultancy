@@ -38,7 +38,7 @@ html{
         display: block;
         height:.33rem;
         width:1.5rem;
-        background-color: #54595F;
+        background-color: white;
     }
     .header2{
         box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 5px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
@@ -59,8 +59,8 @@ html{
     }
     .header__nav ul li:hover a{
         text-decoration: underline;
-        text-decoration-color:#004AAD;
-        text-decoration-thickness: .3rem;
+        text-decoration-color:white;
+        text-decoration-thickness: .2rem;
 
     }
     /* .header__nav .nav__ul li .active{
@@ -70,10 +70,10 @@ html{
     } */
 
     .header__nav ul li a{
-        @apply font-bold text-white lg:text-dark font-livvic
+        @apply font-bold text-white font-livvic
     }
     .header__nav .btn-a {
-        @apply text-white
+        @apply text-black
     }
     
     .header__nav .close span{
@@ -81,7 +81,7 @@ html{
         display: block;
         height:.33rem;
         width:1.5rem;
-        background-color: #54595F;
+        background-color:white;
     }
     .header__nav .close span:nth-child(2){
         margin: .2rem 0; 
@@ -99,7 +99,7 @@ html{
         @apply px-[1rem] py-[1rem] lg:px-0 text-white;
     }
     .navigation .nav__ul li:hover .btn-a{
-        @apply bg-[#0D0C0C] text-white 
+        @apply bg-[#0D0C0C] text-white no-underline
     }
     
    
@@ -163,6 +163,7 @@ html{
      .contact .contctbtn:hover p{
         @apply font-bold text-white
     }
+   
 
 
     
