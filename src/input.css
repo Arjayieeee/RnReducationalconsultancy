@@ -156,6 +156,9 @@ html{
     /* Faciliyy */
 
     .facility .icons ul li {
+        @apply  text-[.8rem] py-[.6rem]
+    }
+    .facility .icons ul li i{
         @apply  text-[.8rem]
     }
     
