@@ -704,7 +704,7 @@ video {
        @apply bg-[url('./img/banner.png')] 
     } */
 
-.banner .banner__wrapper p {
+.banner p {
   text-align: center;
   font-weight: 700;
   --tw-text-opacity: 1;
@@ -712,7 +712,7 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .banner .banner__wrapper p {
+  .banner p {
     font-size: 5rem;
   }
 }
@@ -862,24 +862,44 @@ video {
   top: 0px;
 }
 
-.top-\[\] {
-  top: ;
-}
-
 .top-\[10rem\] {
   top: 10rem;
-}
-
-.top-\[17rem\] {
-  top: 17rem;
 }
 
 .top-\[20rem\] {
   top: 20rem;
 }
 
-.top-\[11rem\] {
-  top: 11rem;
+.top-\[15rem\] {
+  top: 15rem;
+}
+
+.bottom-\[15rem\] {
+  bottom: 15rem;
+}
+
+.bottom-\[25rem\] {
+  bottom: 25rem;
+}
+
+.top-\[25rem\] {
+  top: 25rem;
+}
+
+.top-\[2rem\] {
+  top: 2rem;
+}
+
+.top-\[3rem\] {
+  top: 3rem;
+}
+
+.top-\[4rem\] {
+  top: 4rem;
+}
+
+.top-\[5rem\] {
+  top: 5rem;
 }
 
 .-z-10 {
@@ -972,20 +992,20 @@ video {
   margin-top: 3rem;
 }
 
-.ml-\[\] {
-  margin-left: ;
+.mr-\[\] {
+  margin-right: ;
 }
 
-.ml-\[5rem\] {
-  margin-left: 5rem;
+.mr-\[10rem\] {
+  margin-right: 10rem;
 }
 
 .ml-\[10rem\] {
   margin-left: 10rem;
 }
 
-.ml-\[2rem\] {
-  margin-left: 2rem;
+.ml-\[5rem\] {
+  margin-left: 5rem;
 }
 
 .flex {
@@ -1645,14 +1665,6 @@ body{
     bottom: 0px;
   }
 
-  .lg\:top-\[10rem\] {
-    top: 10rem;
-  }
-
-  .lg\:top-\[20rem\] {
-    top: 20rem;
-  }
-
   .lg\:z-\[-1\] {
     z-index: -1;
   }
@@ -1688,10 +1700,6 @@ body{
 
   .lg\:mt-\[5rem\] {
     margin-top: 5rem;
-  }
-
-  .lg\:ml-\[5rem\] {
-    margin-left: 5rem;
   }
 
   .lg\:block {
