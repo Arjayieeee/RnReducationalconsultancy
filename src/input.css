@@ -57,10 +57,10 @@ body{
     }
     .header__nav{
         box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
-        @apply shadow-none overflow-y-scroll lg:overflow-x-hidden;
+        @apply shadow-none overflow-y-scroll lg:overflow-hidden;
     }
     .header__nav.open{
-        left:0;
+        right:0;
     }
     .header__nav ul li{ 
         @apply lg:border-b-0 lg:pb-0 

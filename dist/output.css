@@ -585,12 +585,12 @@ video {
 
 @media (min-width: 1024px) {
   .header__nav {
-    overflow-x: hidden;
+    overflow: hidden;
   }
 }
 
 .header__nav.open{
-  left:0;
+  right:0;
 }
 
 @media (min-width: 1024px) {
@@ -850,10 +850,6 @@ video {
   left: 7.2rem;
 }
 
-.right-\[-18rem\] {
-  right: -18rem;
-}
-
 .right-\[-20rem\] {
   right: -20rem;
 }
@@ -872,14 +868,6 @@ video {
 
 .top-12 {
   top: 3rem;
-}
-
-.left-\[-18rem\] {
-  left: -18rem;
-}
-
-.left-\[18rem\] {
-  left: 18rem;
 }
 
 .-z-10 {
@@ -1044,6 +1032,10 @@ video {
   height: 100%;
 }
 
+.w-\[12rem\] {
+  width: 12rem;
+}
+
 .w-\[15rem\] {
   width: 15rem;
 }
@@ -1070,6 +1062,10 @@ video {
 
 .w-\[26rem\] {
   width: 26rem;
+}
+
+.w-\[28rem\] {
+  width: 28rem;
 }
 
 .w-\[30rem\] {
@@ -1112,10 +1108,6 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.flex-row-reverse {
-  flex-direction: row-reverse;
 }
 
 .flex-col {
