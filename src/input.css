@@ -111,9 +111,9 @@ html{
 
     /* BANNER*/
     
-    .banner{
+    /* .banner{
        @apply bg-[url('./img/banner.png')] 
-    }
+    } */
     .banner .banner__wrapper p{
         @apply text-white font-bold text-center lg:text-[5rem]
     }
