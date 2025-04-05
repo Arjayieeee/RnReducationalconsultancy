@@ -152,6 +152,12 @@ html{
     }
 
 
+    /* Faciliyy */
+
+    .facility .icons ul li {
+        @apply  text-[.8rem]
+    }
+    
     /* Contact */
 
     .contact .contact__content{
