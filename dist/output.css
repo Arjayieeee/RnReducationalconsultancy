@@ -1566,7 +1566,7 @@ video {
 }
 
 html{
-  overflow-y:hidden;
+  overflow-x:hidden;
   scroll-behavior: smooth;
   font-family: Nunito, sans-serif;
 }
