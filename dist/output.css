@@ -836,6 +836,10 @@ video {
   position: relative;
 }
 
+.-left-12 {
+  left: -3rem;
+}
+
 .left-\[7\.2rem\] {
   left: 7.2rem;
 }
@@ -856,8 +860,8 @@ video {
   top: 0px;
 }
 
-.top-1 {
-  top: 0.25rem;
+.top-12 {
+  top: 3rem;
 }
 
 .-z-10 {
@@ -1608,6 +1612,86 @@ html{
 
   .lg\:top-10 {
     top: 2.5rem;
+  }
+
+  .lg\:left-0 {
+    left: 0px;
+  }
+
+  .lg\:left-full {
+    left: 100%;
+  }
+
+  .lg\:right-0 {
+    right: 0px;
+  }
+
+  .lg\:-left-12 {
+    left: -3rem;
+  }
+
+  .lg\:-left-0 {
+    left: -0px;
+  }
+
+  .lg\:left-5 {
+    left: 1.25rem;
+  }
+
+  .lg\:right-11 {
+    right: 2.75rem;
+  }
+
+  .lg\:right-12 {
+    right: 3rem;
+  }
+
+  .lg\:top-11 {
+    top: 2.75rem;
+  }
+
+  .lg\:top-\[20rem\] {
+    top: 20rem;
+  }
+
+  .lg\:top-\[rem\] {
+    top: rem;
+  }
+
+  .lg\:top-\[25rem\] {
+    top: 25rem;
+  }
+
+  .lg\:top-\[1rem\] {
+    top: 1rem;
+  }
+
+  .lg\:top-\[15rem\] {
+    top: 15rem;
+  }
+
+  .lg\:top-\[10rem\] {
+    top: 10rem;
+  }
+
+  .lg\:right-\[5rem\] {
+    right: 5rem;
+  }
+
+  .lg\:right-\[7rem\] {
+    right: 7rem;
+  }
+
+  .lg\:right-\[10rem\] {
+    right: 10rem;
+  }
+
+  .lg\:right-\[3rem\] {
+    right: 3rem;
+  }
+
+  .lg\:right-\[1rem\] {
+    right: 1rem;
   }
 
   .lg\:z-\[-1\] {
