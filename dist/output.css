@@ -585,12 +585,12 @@ video {
 
 @media (min-width: 1024px) {
   .header__nav {
-    overflow: hidden;
+    overflow-x: hidden;
   }
 }
 
 .header__nav.open{
-  right:0;
+  left:0;
 }
 
 @media (min-width: 1024px) {
@@ -850,6 +850,10 @@ video {
   left: 7.2rem;
 }
 
+.right-\[-18rem\] {
+  right: -18rem;
+}
+
 .right-\[-20rem\] {
   right: -20rem;
 }
@@ -868,6 +872,14 @@ video {
 
 .top-12 {
   top: 3rem;
+}
+
+.left-\[-18rem\] {
+  left: -18rem;
+}
+
+.left-\[18rem\] {
+  left: 18rem;
 }
 
 .-z-10 {
@@ -1100,6 +1112,10 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
 }
 
 .flex-col {
