@@ -1677,6 +1677,14 @@ body{
     bottom: 0px;
   }
 
+  .lg\:top-\[10rem\] {
+    top: 10rem;
+  }
+
+  .lg\:top-\[20rem\] {
+    top: 20rem;
+  }
+
   .lg\:z-\[-1\] {
     z-index: -1;
   }
@@ -1712,6 +1720,18 @@ body{
 
   .lg\:mt-\[5rem\] {
     margin-top: 5rem;
+  }
+
+  .lg\:ml-\[\] {
+    margin-left: ;
+  }
+
+  .lg\:ml-\[20rek\] {
+    margin-left: 20rek;
+  }
+
+  .lg\:ml-\[20rem\] {
+    margin-left: 20rem;
   }
 
   .lg\:block {
