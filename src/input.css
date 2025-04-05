@@ -31,6 +31,13 @@ html{
     scroll-behavior: smooth;
     @apply font-Nunito;
 }
+html:focus-within{
+    scroll-behavior: smooth !important;
+}
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
 
 @layer components{
 

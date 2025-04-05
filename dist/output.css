@@ -1571,6 +1571,15 @@ html{
   font-family: Nunito, sans-serif;
 }
 
+html:focus-within{
+  scroll-behavior: smooth !important;
+}
+
+body{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 .hover\:bg-black:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
