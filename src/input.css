@@ -110,7 +110,7 @@ body{
         @apply bg-[#0D0C0C] text-white no-underline
     }
     
-   
+
     
     .arjay.show{
         @apply  w-[100%] ease-linear duration-300
