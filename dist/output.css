@@ -1008,6 +1008,18 @@ video {
   margin-left: 5rem;
 }
 
+.mr-\[2rem\] {
+  margin-right: 2rem;
+}
+
+.mr-\[3rem\] {
+  margin-right: 3rem;
+}
+
+.mr-\[4rem\] {
+  margin-right: 4rem;
+}
+
 .flex {
   display: flex;
 }
