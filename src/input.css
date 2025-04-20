@@ -27,7 +27,6 @@
     }
 
 html{
-    overflow-x:hidden;
     scroll-behavior: smooth;
     @apply font-Nunito;
 }
@@ -50,8 +49,10 @@ body{
     }
     .header2{
         box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 5px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-        @apply sticky top-0 z-[999]
+        @apply sticky top-0 z-[999];
+       
     }
+    
     .header2 .toggle__menu span:nth-child(2){
         margin: .2rem 0; 
     }
@@ -132,6 +133,13 @@ body{
     .banner .button li:hover a{
         @apply bg-[#0D0C0C] text-white 
     }
+
+    /* About */
+    /* .about__content .greetings p{
+        background-image: url("img/blueleaves.jpg");
+        background-repeat: no-repeat;
+    } */
+
 
     /* Service */
 
