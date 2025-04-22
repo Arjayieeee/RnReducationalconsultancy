@@ -849,10 +849,6 @@ video {
   position: relative;
 }
 
-.sticky {
-  position: sticky;
-}
-
 .left-0 {
   left: 0px;
 }
@@ -1640,6 +1636,10 @@ body{
     bottom: 0px;
   }
 
+  .lg\:left-\[15\.7rem\] {
+    left: 15.7rem;
+  }
+
   .lg\:left-\[15rem\] {
     left: 15rem;
   }
@@ -1652,44 +1652,36 @@ body{
     top: 2rem;
   }
 
-  .lg\:left-\[25rem\] {
-    left: 25rem;
+  .lg\:left-\[rem\] {
+    left: rem;
   }
 
   .lg\:left-\[20rem\] {
     left: 20rem;
   }
 
-  .lg\:left-\[17rem\] {
-    left: 17rem;
+  .lg\:left-\[40rem\] {
+    left: 40rem;
   }
 
-  .lg\:left-\[1rem\] {
-    left: 1rem;
+  .lg\:left-\[35rem\] {
+    left: 35rem;
   }
 
-  .lg\:left-\[16rem\] {
-    left: 16rem;
+  .lg\:left-\[30\.7rem\] {
+    left: 30.7rem;
   }
 
-  .lg\:left-\[15\.5rem\] {
-    left: 15.5rem;
+  .lg\:left-\[1\.7rem\] {
+    left: 1.7rem;
   }
 
-  .lg\:left-\[15\.rem\] {
-    left: 15.rem;
+  .lg\:left-\[\.7rem\] {
+    left: .7rem;
   }
 
-  .lg\:left-\[15\.7rem\] {
-    left: 15.7rem;
-  }
-
-  .lg\:left-\[10rem\] {
-    left: 10rem;
-  }
-
-  .lg\:left-\[13rem\] {
-    left: 13rem;
+  .lg\:left-\[35\.7rem\] {
+    left: 35.7rem;
   }
 
   .lg\:z-\[-1\] {
@@ -2066,6 +2058,10 @@ body{
     font-size: 1.2rem;
   }
 
+  .lg\:text-\[1\.3rem\] {
+    font-size: 1.3rem;
+  }
+
   .lg\:text-\[1\.7rem\] {
     font-size: 1.7rem;
   }
@@ -2088,14 +2084,6 @@ body{
 
   .lg\:text-\[3\.5rem\] {
     font-size: 3.5rem;
-  }
-
-  .lg\:text-\[1\.5rem\] {
-    font-size: 1.5rem;
-  }
-
-  .lg\:text-\[1\.3rem\] {
-    font-size: 1.3rem;
   }
 
   .lg\:font-medium {
