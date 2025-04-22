@@ -195,7 +195,7 @@ body{
 
     /* About Page */
     .abtbanner{
-        @apply bg-[url('./img/aboutbanner.png')] bg-no-repeat
+        @apply bg-[url('./img/abtimg.jpg')] bg-no-repeat
      }
 
     
