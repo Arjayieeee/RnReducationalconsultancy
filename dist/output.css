@@ -849,10 +849,6 @@ video {
   position: relative;
 }
 
-.left-0 {
-  left: 0px;
-}
-
 .left-\[7\.2rem\] {
   left: 7.2rem;
 }
@@ -1029,10 +1025,6 @@ video {
 
 .h-\[54vh\] {
   height: 54vh;
-}
-
-.h-\[80vh\] {
-  height: 80vh;
 }
 
 .h-\[8rem\] {
@@ -1276,11 +1268,6 @@ video {
   padding-right: .7rem;
 }
 
-.px-\[1\.2rem\] {
-  padding-left: 1.2rem;
-  padding-right: 1.2rem;
-}
-
 .px-\[1\.3rem\] {
   padding-left: 1.3rem;
   padding-right: 1.3rem;
@@ -1389,6 +1376,10 @@ video {
 
 .pt-\[4rem\] {
   padding-top: 4rem;
+}
+
+.pt-\[1re\2c \] {
+  padding-top: 1re,;
 }
 
 .text-center {
@@ -1534,6 +1525,10 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\] {
+  color: ;
+}
+
 .opacity-\[\.7\] {
   opacity: .7;
 }
@@ -1600,6 +1595,12 @@ body{
   overflow-x: hidden;
 }
 
+.greetings .greet {
+  background-image: url('./img/bggreet.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .hover\:bg-black:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -1641,20 +1642,8 @@ body{
     bottom: 0px;
   }
 
-  .lg\:left-\[35\.7rem\] {
-    left: 35.7rem;
-  }
-
-  .lg\:left-\[35rem\] {
-    left: 35rem;
-  }
-
   .lg\:top-\[20rem\] {
     top: 20rem;
-  }
-
-  .lg\:top-\[2rem\] {
-    top: 2rem;
   }
 
   .lg\:z-\[-1\] {
@@ -1784,6 +1773,18 @@ body{
 
   .lg\:h-\[70vh\] {
     height: 70vh;
+  }
+
+  .lg\:h-\[80vh\] {
+    height: 80vh;
+  }
+
+  .lg\:h-\[90vh\] {
+    height: 90vh;
+  }
+
+  .lg\:h-\[0vh\] {
+    height: 0vh;
   }
 
   .lg\:w-\[100vw\] {
@@ -1944,6 +1945,11 @@ body{
     padding: .8rem;
   }
 
+  .lg\:px-\[20rem\] {
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+
   .lg\:px-\[2rem\] {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1979,6 +1985,16 @@ body{
     padding-bottom: 5rem;
   }
 
+  .lg\:py-\[20rem\] {
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+  }
+
+  .lg\:py-\[10rem\] {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
   .lg\:pb-0 {
     padding-bottom: 0px;
   }
@@ -2003,12 +2019,24 @@ body{
     padding-top: 1rem;
   }
 
+  .lg\:pt-\[20rem\] {
+    padding-top: 20rem;
+  }
+
   .lg\:pt-\[3rem\] {
     padding-top: 3rem;
   }
 
   .lg\:pt-\[5rem\] {
     padding-top: 5rem;
+  }
+
+  .lg\:pt-\[10rem\] {
+    padding-top: 10rem;
+  }
+
+  .lg\:pt-\[15rem\] {
+    padding-top: 15rem;
   }
 
   .lg\:text-center {
@@ -2033,10 +2061,6 @@ body{
 
   .lg\:text-\[1\.2rem\] {
     font-size: 1.2rem;
-  }
-
-  .lg\:text-\[1\.3rem\] {
-    font-size: 1.3rem;
   }
 
   .lg\:text-\[1\.7rem\] {
@@ -2065,10 +2089,6 @@ body{
 
   .lg\:font-medium {
     font-weight: 500;
-  }
-
-  .lg\:leading-\[1\.5rem\] {
-    line-height: 1.5rem;
   }
 
   .lg\:leading-\[1\.8rem\] {

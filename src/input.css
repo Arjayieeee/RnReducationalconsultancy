@@ -221,3 +221,7 @@ body{
      
    
 }
+
+.greetings .greet{
+    @apply bg-[url('./img/bggreet.png')] bg-no-repeat bg-cover
+}
