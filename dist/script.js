@@ -79,10 +79,18 @@ headerclose.addEventListener("click", () =>{
 
     var swiper = new Swiper(".mySwiper", {
       loop: true,
-      spaceBetween: 12,
-      slidesPerView: 6,
+      spaceBetween: 5,
+      slidesPerView: 4,
       freeMode: true,
       watchSlidesProgress: true,
+      breakpoints: {
+        400: {
+          slidesPerView: 4,
+        },
+        1000:{
+          slidesPerView: 6,
+        },
+    }
     });
     var swiper2 = new Swiper(".mySwiper2", {
       loop: true,
@@ -94,6 +102,12 @@ headerclose.addEventListener("click", () =>{
       thumbs: {
         swiper: swiper,
       },
+      breakpoints: {
+        400: {
+          slidesPerView: 1,
+        },
+        
+    }
       
     });
   

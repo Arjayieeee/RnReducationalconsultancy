@@ -275,11 +275,9 @@ body{
   }
 
   .mySwiper .swiper-slide {
-    width: 70%;
-    height: 22rem;
     opacity: 0.4;  
     filter: brightness (60%);
-    @apply  lg:block
+    @apply h-[10rem] lg:h-[22rem] w-[5rem] lg:block
   }
 
   .mySwiper .swiper-slide-thumb-active {

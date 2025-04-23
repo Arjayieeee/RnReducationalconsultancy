@@ -1644,15 +1644,16 @@ body{
 }
 
 .mySwiper .swiper-slide {
-  width: 70%;
-  height: 22rem;
   opacity: 0.4;
-  filter: brightness (60%)
+  filter: brightness (60%);
+  height: 10rem;
+  width: 5rem
 }
 
 @media (min-width: 1024px) {
   .mySwiper .swiper-slide {
     display: block;
+    height: 22rem;
   }
 }
 
