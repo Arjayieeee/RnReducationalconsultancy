@@ -1644,10 +1644,16 @@ body{
 }
 
 .mySwiper .swiper-slide {
-  width: 35%;
-  height: 15rem;
+  width: 70%;
+  height: 22rem;
   opacity: 0.4;
-  filter: brightness (60%);
+  filter: brightness (60%)
+}
+
+@media (min-width: 1024px) {
+  .mySwiper .swiper-slide {
+    display: block;
+  }
 }
 
 .mySwiper .swiper-slide-thumb-active {
@@ -1657,7 +1663,7 @@ body{
 .swiper-slide img {
   display: block;
   width: 100%;
-  height: 50rem;
+  height: 40rem;
   -o-object-fit: cover;
      object-fit: cover;
   border-style: solid;
@@ -2162,3 +2168,4 @@ body{
     opacity: 0.9;
   }
 }
+
