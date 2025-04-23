@@ -21,28 +21,28 @@ headerclose.addEventListener("click", () =>{
 });
 
 
-const swiper = new Swiper('.swiper', {
-    autoplay: {
-      delay: 3000,
-    },
-    watchSlidesProgress: true,
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'progressbar',
-      },
-      breakpoints: {
-        400: {
-            autoplay: {
-                delay: 3000,
-              },
-        },
-    }
+// const swiper = new Swiper('.swiper', {
+//     autoplay: {
+//       delay: 3000,
+//     },
+//     watchSlidesProgress: true,
+//     navigation: {
+//         nextEl: '.swiper-button-next',
+//         prevEl: '.swiper-button-prev',
+//       },
+//       pagination: {
+//         el: '.swiper-pagination',
+//         type: 'progressbar',
+//       },
+//       breakpoints: {
+//         400: {
+//             autoplay: {
+//                 delay: 3000,
+//               },
+//         },
+//     }
      
-   });
+//    });
 
    const drop_down = document.querySelectorAll(".drop__down .li__head")
     drop_down.forEach((dropd) => {
@@ -75,3 +75,25 @@ const swiper = new Swiper('.swiper', {
       this.className += "active";
     })
   }
+
+
+    var swiper = new Swiper(".mySwiper", {
+      loop: true,
+      spaceBetween: 12,
+      slidesPerView: 6,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+      loop: true,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+      
+    });
+  
